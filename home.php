@@ -1,19 +1,26 @@
+<?php require_once "validador_acesso.php" ?>
+
 <html>
   <head>
     <meta charset="utf-8" />
     <title>App Help Desk</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../help_desk/assets/css/style.css">
   </head>
 
   <body>
 
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
-        <img src="../assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <img src="../help_desk/assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
         App Help Desk
       </a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="logoff.php" class="nav-link">Sair</a>
+        </li>
+      </ul>
     </nav>
 
     <div class="container">    
@@ -27,10 +34,14 @@
             <div class="card-body">
               <div class="row">
                 <div class="col-6 d-flex justify-content-center">
-                  <img src="../assets/img/write.png" width="70" height="70">
+                  <a href="abrir_chamado.php">
+                  <img src="../help_desk/assets/img/write.png" width="70" height="70">
+                  </a>
                 </div>
                 <div class="col-6 d-flex justify-content-center">
-                  <img src="../assets/img/search.png" width="70" height="70">
+                  <a href="consultar_chamado.php">
+                  <img src="../help_desk/assets/img/search.png" width="70" height="70">
+                  </a>
                 </div>
               </div>
             </div>
