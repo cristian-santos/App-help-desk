@@ -34,12 +34,12 @@
             <div class="card-body">
               <div class="row">
                 <div class="col-6 d-flex justify-content-center">
-                  <a href="abrir_chamado.php">
+                  <a href="abrir_chamado.php" title="cadastrar chamado">
                   <img src="../help_desk/assets/img/write.png" width="70" height="70">
                   </a>
                 </div>
                 <div class="col-6 d-flex justify-content-center">
-                  <a href="consultar_chamado.php">
+                  <a href="consultar_chamado.php"  title="consultar chamado">
                   <img src="../help_desk/assets/img/search.png" width="70" height="70">
                   </a>
                 </div>
